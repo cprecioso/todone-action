@@ -35,7 +35,8 @@
     "@todone/default-plugins": "0.6.0",
     "@todone/internal-util": "0.3.0",
     "@todone/plugin": "0.3.1",
-    "@todone/types": "0.7.0"
+    "@todone/types": "0.7.0",
+    "@ungap/with-resolvers": "^0.1.0"
   },
   "devDependencies": {
     "@todone/internal-build": "0.3.0",

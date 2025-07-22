@@ -33,6 +33,20 @@ var __toESM$1 = (mod, isNodeMode, target) => (target = mod != null ? __create$1(
 var __require = /* @__PURE__ */ createRequire(import.meta.url);
 
 //#endregion
+//#region ../../node_modules/@ungap/with-resolvers/index.js
+Promise.withResolvers || (Promise.withResolvers = function withResolvers() {
+	var a$1, b$1, c = new this(function(resolve$1, reject) {
+		a$1 = resolve$1;
+		b$1 = reject;
+	});
+	return {
+		resolve: a$1,
+		reject: b$1,
+		promise: c
+	};
+});
+
+//#endregion
 //#region ../../node_modules/@actions/core/lib/utils.js
 var require_utils$3 = __commonJS({ "../../node_modules/@actions/core/lib/utils.js"(exports) {
 	Object.defineProperty(exports, "__esModule", { value: true });
